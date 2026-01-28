@@ -1,0 +1,267 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Health-fit Gym | Train Hard Stay Fit</title>
+<h3>contact now=+919671331075</h3>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+body{
+  color:#e5e7eb;
+  background:
+    linear-gradient(rgba(2,6,23,.75),rgba(2,6,23,.95)),
+    url("https://images.unsplash.com/photo-1517836357463-d25dfeac3438");
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+}
+
+
+/* HEADER */
+header{
+  padding:80px 20px;
+  text-align:center;
+  background:
+    linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.85)),
+    url("https://images.unsplash.com/photo-1558611848-73f7eb4001a1");
+  background-size:cover;
+  background-position:center;
+}
+
+header h1{font-size:44px}
+header p{font-size:18px;color:#fecaca;margin-top:10px}
+
+/* COMMON */
+section{
+  padding:80px 20px;
+  background:rgba(2,6,23,.65);
+  backdrop-filter:blur(10px);
+}
+
+.title{text-align:center;margin-bottom:40px}
+.title h2{font-size:32px;color:#f87171}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:25px;
+  max-width:1100px;
+  margin:auto;
+}
+
+/* CARD */
+.card{
+  background:rgba(255,255,255,.06);
+  border-radius:22px;
+  padding:25px;
+  box-shadow:0 20px 40px rgba(0,0,0,.6);
+  transition:.3s;
+}
+.card:hover{transform:translateY(-6px)}
+
+/* PHOTO */
+.photo{
+  background:
+    linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.7)),
+    url("https://images.unsplash.com/photo-1571019613914-85f342c55f07");
+  background-size:cover;
+  background-position:center;
+}
+
+.photo img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+/* PRICES */
+.price{
+  font-size:22px;
+  color:#38bdf8;
+  margin-top:10px;
+}
+
+/* ACHIEVEMENTS */
+.counter{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  flex-wrap:wrap;
+}
+.count-box{text-align:center}
+.count-box h3{font-size:42px;color:#f87171}
+.count-box p{color:#fecaca}
+
+/* CONTACT */
+.contact-box{
+  max-width:1000px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:40px;
+}
+.contact-card{
+  background:rgba(255,255,255,.06);
+  padding:30px;
+  border-radius:20px;
+}
+.contact-card p{margin:10px 0}
+.contact-card a{color:#38bdf8;text-decoration:none}
+
+/* FORM */
+input,textarea,button{
+  width:100%;
+  padding:12px;
+  margin:10px 0;
+  border:none;
+  border-radius:10px;
+}
+button{
+  background:#ef4444;
+  color:#fff;
+  font-weight:600;
+  cursor:pointer;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp{
+  position:fixed;
+  bottom:25px;
+  right:25px;
+  width:60px;
+  height:60px;
+  background:#25D366;
+  color:#fff;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:28px;
+  text-decoration:navajowhite;
+  box-shadow:0 10px 30px rgba(199, 173, 173, 0.6);
+  z-index:999;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:30px;
+  color:#94a3b8;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+  header h1{font-size:34px}
+  .contact-box{grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Health-fit Gym</h1>
+  <p>Build Muscle • Lose Fat • Stay Fit</p>
+</header>
+
+<!-- PROGRAM PHOTOS -->
+<section>
+  <div class="title"><h2>Our Training Programs</h2></div>
+  <div class="grid">
+    <div class="card">
+      <div class="photo"><img src="data:image/webp;base64,UklGRmoXAABXRUJQVlA4IF4XAADwmwCdASqTAQoBPp1In0qlpDQpp7Qa2oATiWcHG8vHxVwDfG8KsqEh1ts0L7kxPvXAjx/hWcjeYVYKA21ajSe7qMkRekTnxIDhbD3C1XTDPoF1RE17rmSh8V+h6N/48mGCvpPL3poPRRsS5X3PtdPjxII+ZBVP4UFHX4rM5+WMG9OhCIOWPCIH1Cy9A0qF3N056OBP7G1rzwS+BPK3XWt3jqQ/p2JEC/cMnPYtY6I/yrUo8Qs8Vyf8Np1S/fiZbHJ3D6572CTu8RuhkuEsNHCapyMkTPqetvGAb0L8V4Po6mfCXZkKsR3OW/XAqs5lV28b1KC7W2sQ0+nnCdpKKd90fQ+zGwRgCY76XZQkXMl1UoH0BCPg5r/wAMUfHgl4V0GHTWt+7YW4Q+7kae4l2OpAHDD6LUFeAsjZhlYiVsHpFTcwEorbY62JawVtQk5TIqQaAubIggDvpqD6psNCFO2iazPDaCDjXwz7RQwq3hLWkHdaIj+X0vga3q1IwVWkvttDZiQJiz6oMHPhJ15H8o+RGZRX7klrGGljiW5LRio/0YjpGXfVEsK6VPIu1Z4vlI/SBe/Jdb6dkDzR9T0a4zYxp5Lw/66MyFVItkj3cWYsLy+vPXxSyxDtsdpY57ErEkjc/4mCBUf3yvmzSO/sF7JVFverGDmjWm8Cw6oN1Pdqhzmve+O6NElduR4liQCKrpSF3CoJls6XROlrzNfW2479HUPFgk8sMa0nsvrrCiS1RQ+bjVXjiu0EkCsz2HFK+jARodun1jnqP6UL9sPzC1/qUy83dsV1QDmSqx4pKgtd8Ps1IUH4Qosf/fHq+jsIirw47HFwwo/ABxMlG+u8saBh8FtnF+Fchygps+6FM+rZQh2w4KpE878iSIEKmBWC8JyXJ7TI7DpWq6W7ofKAY0RUFcmQTV1SdXBra2lEgpAyFSgvsYwe29kRt1vmhHmN5nZ8b9PFQV2vV61BiR/h1sMAFHMT2VuXNHm6nBZ1eWu3ef11cpzygveKYYdVOnwBYLGotaGvqdMhBx0q2P16z1VGFLadjXUzE2WQVfm4Yficd5n4+rCocoohQMKhRU8/4PeLDwAlrlx2JoPfuMmee7bCZf3vLYeOBC+SQj91w5wArUY5ojGzNNXgmovc6gjhsfDp5q8BfEJG94MZeXW0pOLsDQF2XIBNJvAfAVpNwkYiCTliYvpNV7xpQhRRPHSgRYFs0XgkHbL/A3U6UIO0siZ8tRsZnc0u9X4BaGKr+xcolL5eDhuwX+bnySclTnzEstxA3VEyAP4fJ//ntAsLImrV0zUUs2ARnIHv1sUZ82Xv5a2EbpfjLkGdlAl8igdBRQKYFB4aO0bX4epXaYAxlzUasVGQ4mps4Rn/QMB1BzxEEzd6O952e/iYiHcoBnCYig9X8p3n07Fj48CWNXo+s0ew+/wVJhDjGEwNUMgxsbO1HbOncmcCmaKvxp9NdpixyeeQBGAHPeKZYOhEZXw89epsm0IZ2IeJz0j4AKMD0fq0LlT/++CxpF8x+1gSmHr7E21zgM1AlR3a03J/AhzLDHKtkQTakVg0ofnJRn0an5qx1LLukLuZVJUQWLdpt5hP70H1NMDrgl830YHt0xSsBiIx82wujtRCG7FaLwLDWoNEgD0kGjbMfrJgEor7OXmirPO3WrIP5u2QAAD+6QO18zP6SEyDsDm/xO/gWMnUM36fd50DDC7FqCjC3AljYn5pHcgLjBgFu9B0XdsQTxzKffYDwZe2fGkxR5DClkmvd8j6/b0hk75mAj1HnpTCRnbgeqZLrz+0xodS4ypDE20oMILmZy2rggTJe9IbrYgwlRlYpzl7wNE83OgS8Vxo7ag6XTcJmGyxGqw4ResPsECGLwWhY6mu33s6TNGYl7zo33MrfaWL8xgu2hOeXSRbTkDMIWVDwvP303SUACs0FwVKUQGYiv28K+FcmeL76vmlp+P/0PKuhB0b7KNEoCj4BMHdJe8iRri8Uj+5bV09sE0uR/Zq3QFrXpeGHcPQa9eexOTXW5TllwLeGGfrs0c3iyiyW5BEXPoP1G6Ml+WfB7XTzQFa+PtZq/iEkrAw7WGS7LhKJmZupzzyrCjCdSIXDMLvC278pVvbAce03cKg9iMYxvzTFLTdDZk0lfp6B6H6XH0Vh8IwxHhGTuPGcC1xmEgeFTctO8/h4Jj34Wb/AA3cQZSLO0rvC+C3UUpJYfxgJuzkQM137FxXIrhKxmDl6692zVExjQrMe3ZC4B0h/DTejOCE+jmpCo2W214MSmrgpg/zfL5K+5OqvBtp9Cq6xB9g4+HTEuZAGBlje0Inqqv0xAYPz9lUxi5ufWgLxj1nimdaDTAcHW+ORX1V1nFFfbOXZg4CytBFno+f7EBh2nyleAcfHArsNz/0zwfAVB0CLzsZUiGt6/ju1E07jjl/ub5Cwq5FyFeJeSEUFf2N0ipyk9HZ+t27WlEQEKUvwaJmS+cBjF9DCe4xK7Wlr+bwl5KA6FE2DFADBA8YlTlbcNpFgEg/gbTHGhr33Mnr3aocL+vSv4y/cFcuXgKfK2n/wpLh5FbNxCDz/zRTsNu/lNBKm7+JRnwaOgnq7cxCWyHSyvgWLqcOTgAnnDc3KHwFfaqTynSF+m5ghePZQ4fnLJNtkYaddWpBxj1tefJHW05CSBXJu4BBF3gNKbi1KXCTZmqblruo3U5Yaf5XQvVRSzrx5m4QWJGnIE91XiXRWustoxofCdrkC4cpaJoFHOUTzxYkzXv/g/GT4AhdWPIxNXsAQ4OTXLIcbo6MWz2/fI/JU78byX8Rt0uRUxT0GvcFtzLegpLh+MSxjwOkPCDEL2YH9ICUGRLRBfbVYopIbkCL4IuZE48dJU+wCfy7ru5QAJ3Co31R7rU5plyRV4eNbdpeJ8jJG8EtcjdMu5hjNcRygQ7wH++wKtI/Q/QfkTdSlaRGgGAf2AKhjFCs2vFfqEu4v/HMe/1gAGATlqJrkHYoWqG6K15tA1GFoWLEGuMSe6pi0+4PLZLxaY9iLJ6Zsi2UululDiGYXya7pvAw89I8xqwrzgE72BLfdr7bovTWpzAZkZgcu4tAyw0Yd3+o7g5m01D/67uv74hEFW6EQYVyr+3oJdwvTEDOtV4VUxTMFcVmh9tCKucSVproDr79E8Tjzj3au48f/wglfHHT4o9BMGYbzabtgBeTgInx7FUpK5vqJ+tBSnohUUZK+T1a1LiWAHppE2YKqpBdXg60VssLqUzSynlSgDaIw302KQvnkJ2n0SF+vXZ9jvfyB+7w7mQbD/5mYnhPXTB1eRecw2sYxLK4KgmxKOq66hFo67FhgAhxwW85G+P1jgU40IkKggFsegSswzUKwgpkqWLvSfJjVbHVGRUbpN24e4OU8YAXo3gS1bf2gIFzZ69HQLtcqCD1Q+b5k2Z568DNqB8KDa5uRl9M6Q0N5JnHNxER8+qdiIR9118+XoLSq9Ob07qLrYnTiDkPtIm+Uw2FLT0EZIWxLODZkm3Z8tgwPeznr7NPJZnjHTuYRXNzKYLXGK2hwJHvexm7+Ja0ewa2gT/uL0Yyh1NQIFifASim7DjuSyMjGoqb9t+VvqsBK22HkEkVbq91yLKVKvPM2F9UrjifeKSWx9qmX0Hok3A2TatxQs1tn1+AhIcnJvHryDNyuVVByqQZtYCDXM6j+zVcmejCVvyFgUjo8jvXLa03brOVbEH4k+WPJYSDsRdyuZ/MSBuLAiBeMKmUWiv//ELGLedcze+XKtdL1MMLZi2z4YOaj1IYR4a8iLyMCvV6hqv2KUIQOpuVF9lWcXnru9mPgpjBi6ygCBcU7IP7l3AWmu4BUQU70hHLtzIHB/p7GjGiTnCDIiiqYD8Gm6UMftKnqAI5ZbYxQ0oPlvYmbJvAaMl1SWYvlD0MUEA7mbF5Sq/Ao9LIIpu46+tuvAhD85LqyRS+YAc1eET8vJmb5zmlcy4UgJS4P8s8PTrEENvC0kckHQL5TjHGl8wLzTQw1fKE03gAiQKyKSMOwRMaVNzQxn34tSz8YeYHohkvp/S1y4pe1tevu3K8K0dvkfYeeXw089hG8TNL1cuxTZqaG6DZSDKY2FHCmQECuv13y2YjHvkQS4SH9uHQUcRS5rbpkuAJOZvf2uH6EuY0TnXi5C+GMZOfKTVv6kB63u9dtcsF+Ads4HXYQESGMZxj0N7vw7m63IEAzMTs5rJpIOItWFr5okeeQpeadCbKKCAy9AczjQsL7mPu3PaPCErSg5woMo6pyg5eLNMqHLL1o3jCokXB0TA2GrsXoBy4+M53Ouj8vU1zt2uJBA67UlamRBDi96rtoOfbXCdmafYfkedScTwag9vO6DDz3uUiSGbQk5tGsTIJN5TNxTd9CES6fGIHz5IY/MqgbIReGc7QSAfq98tdmQa/o9Sisy91bDvcA/XXTV1Kw9QN6hotSGZNAZtScOioPdpeED0hH7Usi+PD3QwwMMlZqYrufmAT1l6pDCLQFKMpBmpJODWKyGB1nwgXImnsDoWVoUx2sFnIo5xuW7gRm1ojVxlDUXGSSf4tADBCojhmReQtNH6H7GRC/dNW0fCP3YN37Z2a1vec/ExD3uK++HnQ5NHoXr2vuSsG6y+2ElS+/nEArnpIGhyLFzDU9zPQ57ahs9PSI5xWU99kr0jUWRXbRJtFYCqCmc6VZzxAl6q6tudc1g0gntKsX6fJhEpAIMCJDbrL3kuBfageZGJDt2vUWzkq3g0pNXKLg0O1Yyn+Oj2En0FAnlrfs0lrXS+SbpLTgryAWK4pHkaxwuxvMTJza5bofjH3GIJOzbI0KTqEKE12icFTYRfdJxOPThLh7RjIXnrSrtp50sdwv+SJvvcA2JoI6bphxDytW5EqVMvHIQuAjFNpHlekL3iKbiwZRH9RYBuuHjXuKCtvzm7wx1LaR0BVkxEbe+j2K/VEHsqHuMbZ3Vjxr4oD+RHcJfQueVXRQhmHGWppORDuyM+6yOVL9Klap+K1KCsofFjXRWcjphS09XmcirKwiSb/d0kVWCZFQlfsYSbCG9xQ4Q2QXU0hxaY/YsIzWZHPaYYhpAioig0P1QVZYwlg2NQAqXeUCSurJTymd/sMxJXuIwCTKmpGc337P/XoAn0hqY2HHxrx+CKE25crKK9SW/JXrwUcWgZIk18V+Cxy/LUfGO/b+Ia9xuAk/VVQJgxxbAv64UaVCZVmqON8BWWKPrgqJ3XrZSUKtH/wgHSHGCumIUzk2W5gQRv07vcZQE5swtR6iu/tdJy7GFJESPgF0Mhn54XfQPAwcZIfmoXpPCNanyOdtfHDMgszqwG0QEpoYEjc2+x2NJgIJNA5t7AichAKssLx/c4XKerOH+GW40SnBzZz0Fflht3wuMP31OHml+ja4YBVx7DdNirhUyHsOMTtEe4MJsWrDcfG6BxfwuUDyrcSgPT5SLadoRuYaHt3V1dQwEKWjxRDZSJjR+WsKyL/MqE5DS4cBcvzmPc5UTL6LbXpuyjRYFAB6LEEws4C2ttmvDo9ODSi0GfpSVyGwcfMJ/Vkm3q/yQFnWI0OnpEheuUjpJMhSUKHDesYDyB64APxr7V9dJjfFTdCT6Yrk0zUdPA5/vq5Ccvt14gvh6FYfxLoHpA92u+hzlKwCtAvrManoqGpKWkIwsNjYwHMuE23m4E3EeVhQCuM4pT9EPUf2PuTVxOtA6JWnw/npQPJbzP/MYGRWOXwvCNoY7SkMilAp8G4eUFn3j78T57uDUmnNIhmJsP0LF1IUGZpKFYYK9wosDhpRRtcDZc7YZIDqVRxUX1c6UpcKnVpfxah3OkDjqGTKxLO6nFm/4iGDaT0U4SPdsQ7jR5g8WmKID39EyASoZ0YejPWWOMZ/LkIACAOH+UUgbjUMw3lehotIBMFazj9ih+puk3/s0CJLOdHpbaLgDDg81Q3hk8lJvpAo5v3RpW2uk3WhnDLZ4hlubhN9nOpHFJfaoccvSy2/VOO3qbFLnRJwVLqsx+s/iZbcaH9E6VJScr3+mZFO9GynElzAeImP4BMMmo/BEbSaptJLhwL+BjufktHSvD7SP7j0ewJv44lQQmIWoawEoBR3W8T4xK1o4IssHIB+6ob4HO5IoA41t2YxmdJTnlaj7Qm3hTWPK2tVwIppHf/MQAGAZTGQ2+PyckfbWPwUd71ZCfDsFU2sripWngWz2FceH4mUej6Gr1Xbfntg+mZrNeidvIyEa66Bv0wjwcayXkH/9tZFPfwkvQ5R4u9A0huURCadRyeAAPQNS8EZtV4EOvI3bBgEIPfs011p+iyXkfp0Kj6I5R37mAJpdohZyPbk267czutuKG4IX9htrXEPC1ijIEkaibxHRY71Dv75Gi44kQZ5jmUKiPXbC/qFAPVl8WisjtYmuzZKR12uLjzmjaEK81vMTweYm2/9Tqf8Bo4VLaXc5/n5had9y4eVxHSoVH2F2BntV0moAf6jpGF0CKQi66CIF+LA/gUSBDfSYiKiy3Oj4x5PPQdcfzfpCiK9qEGQ2dn2PlJ6xzOpfgIAj44HwVp4ZMt1u63dyz30GiLrKoavDWAX+gD79frteiiByrisPwLLNVtApL1oFeesWtwpRWKdC6QskOU1D9dHbadr91y56dmP7dx5jTRf4v+ANJsXOFrmfFAxfmXfEHayfw4O3VScvqrXPOmqMc9iq/6bvz28wE2BPNIyx8kti49u2l9iKowlCVo6e3NUM+VJ29tX0m3wSNOQD1n+AHKAHvjzIrnKlfyQTDfeUIszNTlsLiDjn6oDxdKzdfJEKtSKvEeFs5ew14Td708jyTtHJwjDVNWNn5J7A3Kv4qH6XN1djtgx+w501DCTMJJ77w5MxYLOMVnR9x+OxoMoil2WSHVONCYvi5eyooKSxlQxpVxAb8Kk4RUrY9CtmI0+4FuCmMzDFYZy9bwGlvIm3GSESTWiDZYgQ1oPR7VPgR/EaBHpPY+aK7V+QpMeNKplUiss57g7XMm0y4lSGfbOQeoY0ZB+ZC2crklKqc1jD24VXib3TZPTJ6El/BhMYaKoPkXShcJi91E9/RVIBoe7WLk/SwuApmgq1uyFbGBdOknGhMGjz5JeVmDLMOlUVFcpAVupJhb1oa7a05IzaPhqN94hc9OWHqrCY43mz5V5ISSOTpoE04SCnqpPAOTKgt7EhUy/kW5UpYXU06HZVHGU119UkLVaJ0xooc87ebNkCa3izLotC2oYxFHi62qMnFrnDOovfDnRyygpcJ6EJvyHN7TMOANyNH6hebuGjUkYvvwJXTQjVIOlyBN8EtRs0W3WtN0UoIcSKEEkjBwtwEtpIRgsRaFgatnNVnc2C0LVLi0KAZG38qcy03Hw1fs5/JsY6/92sDBvsQCJitSpJM1FLUzNk0SxuPSFEaaC93m8rlXt86xFyHnBhUbBzTwZUV2D3grrQqE1/mq+oF2VIZRQJ8SgBO4vQOc7Hlyqyj4EQDgvaDwFpY7oZV8IPGD/Vgx1AjgHXVIQAvpC6ZwkoMSNBIzVKOFX3+M0QxOG+JByJtX9hms6v4m08r7qv633pbTuiF+ErknhD3ad+ecs4DY/Dz6Ept9RUCqJpuiEHudo8DsT2v8zSbUgha8+FY/oRXrnX43yUVkpyMuqOooCbmqzf9rUeV0s2QjXkRJ972o/xoY1ziIYtShSsKS5bUEG+C4Q1k+hq2zxiFkt16KRbsy03Nw8xX95x9Ey4O1ToAvCxEeIUSwdmyANV9dAJMhMrmG8cFIzS+F9vSbwn3SWcbJeJRV5qruPDafPtsCeaRKC44EpyT3t3PS0i/oVZTZ53UzTqaOs6096UJmFYICkNombUiS1xrJuVqCkRBc189JxNd2cXmiG6tKRjuLjseIAOVUTI5cwUa5ReyfKW0dX4By3DYPYCIWhEv7FQMGRPkyM4hBDOZNsY7v9RDH2KarLfVSG29cwxtXfThLjeKXHIuSt+L/CguvAJbynZlQumaBsk80l5NAAAA=" alt=""></div>
+      <h3>Weight Training</h3>
+      <p>Modern machines & free weights</p>
+    </div>
+    <div class="card">
+      <div class="photo"><img src="https://th.bing.com/th/id/OIP._fbZcI1oHWdWicEeeqA1lAHaE8?w=186&h=124&c=7&r=0&o=7&dpr=1.6&pid=1.7&rm=3" alt=""></div>
+      <h3>Cardio</h3>
+      <p>Treadmill, cycling & HIIT</p>
+    </div>
+    <div class="card">
+      <div class="photo"><img src="https://i.pinimg.com/736x/10/ac/0b/10ac0ba47fc0cb03e3ca1a08b76fae56.jpg" alt=""></div>
+      <h3>Cardio</h3>
+      <p> cycling </p></div>
+      <div class="card">
+      <div class="photo"><img src="https://images.ctfassets.net/uwf0n1j71a7j/3kH3wjNjHR5YND50heJt6i/5219a1f2810c86c70f7dafcd3e76bca2/cardio-exercises-for-weight-loss.png" alt=""></div>
+      <h3>Cardio</h3>
+      <p> HIIT</p></div>
+      <div class="card">
+      <div class="photo"><img src="https://res.cloudinary.com/peloton-cycle/image/fetch/f_auto,c_limit,w_3840,q_90/https://images.ctfassets.net/6ilvqec50fal/6Z1S0kptdAhsAdO9d9LFiW/9dc792e687b7d6115f95f9978f80f5b6/01_Tread__07364__1_.jpg" alt=""></div>
+      <h3>Cardio</h3>
+      <p>Treadmill</p></div>
+      <div class="card">
+      <div class="photo"><img src="https://cdn-ami-drupal.heartyhosting.com/sites/muscleandfitness.com/files/media/muscular-man-muscles-1109.jpg" alt=""></div>
+      <h3>Cardio</h3>
+      <p>muscles</p></div>
+      <h3>Personal Training</h3>
+      <p>Certified trainers</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section>
+  <div class="title"><h2>Membership Charges</h2></div>
+  <div class="grid">
+    <div class="card"><h3>Monthly</h3><div class="price">₹1,500</div></div>
+    <div class="card"><h3>Quarterly</h3><div class="price">₹4,000</div></div>
+    <div class="card"><h3>Yearly</h3><div class="price">₹12,000</div></div>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section>
+  <div class="title"><h2>Our Achievements</h2></div>
+  <div class="counter">
+    <div class="count-box"><h3>700+</h3><p>Active Members</p></div>
+    <div class="count-box"><h3>15+</h3><p>Expert Trainers</p></div>
+    <div class="count-box"><h3>10+</h3><p>Years Experience</p></div>
+  </div>
+</section>
+
+<!-- CONTACT + FORM -->
+<section>
+  <div class="title"><h2>Contact & Join Now</h2></div>
+  <div class="contact-box">
+
+    <div class="contact-card">
+      <h3>Contact Information</h3>
+      <p>📞 +91 9671331075</p>
+      <p>📧 bsmeena3107@gmail.com</p>
+      <p>📍 Delhi, India</p>
+      <p><a href="https://wa.me/919671331075">Chat on WhatsApp</a></p>
+    </div>
+
+    <div class="contact-card">
+      <h3>Join Now</h3>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <textarea placeholder="Your Fitness Goal"></textarea>
+        <button>Submit</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Health-Fit Gym. All Rights Reserved.
+</footer>
+
+<a href="https://wa.me/919671331075" class="whatsapp">💬</a>
+
+</body>
+</html>
+
+
